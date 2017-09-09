@@ -41,22 +41,23 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         tools:ignore="MissingConstraints"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        app:layout_constraintBottom_toTopOf="@+id/imgOfflineLibrary"
         app:layout_constraintTop_toBottomOf="@+id/videoView"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintVertical_bias="0.642" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imgOfflineLibrary"
         android:layout_width="262dp"
         android:layout_height="168dp"
         android:background="@android:color/background_light"
+        android:onClick="onClick"
         android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:srcCompat="@drawable/folda_icon"
-        tools:ignore="ContentDescription"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/videoView"
-        app:layout_constraintVertical_bias="0.606" />
+        app:layout_constraintVertical_bias="0.606"
+        app:srcCompat="@drawable/folda_icon"
+        tools:ignore="ContentDescription" />
 </android.support.constraint.ConstraintLayout>
