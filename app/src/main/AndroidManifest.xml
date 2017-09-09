@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".OfflineLibrary" />
         <activity android:name=".Mentorship" />
+        <activity android:name=".OfflineLibraryContent"></activity>
     </application>
 
 </manifest>
