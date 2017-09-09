@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".OfflineLibrary"></activity>
+        <activity android:name=".OfflineLibrary" />
+        <activity android:name=".Mentorship" />
     </application>
 
 </manifest>
