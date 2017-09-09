@@ -98,13 +98,14 @@
         android:layout_width="159dp"
         android:layout_height="145dp"
         android:background="@android:color/background_light"
+        android:onClick="onClick"
         android:scaleType="fitCenter"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:srcCompat="@drawable/open_library"
-        tools:ignore="ContentDescription,MissingConstraints,RtlHardcoded"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.868"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.071" />
+        app:srcCompat="@drawable/open_library"
+        tools:ignore="ContentDescription,MissingConstraints,RtlHardcoded" />
 </android.support.constraint.ConstraintLayout>
