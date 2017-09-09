@@ -18,7 +18,13 @@
         </activity>
         <activity android:name=".OfflineLibrary" />
         <activity android:name=".Mentorship" />
-        <activity android:name=".OfflineLibraryContent"></activity>
+        <activity android:name=".OfflineLibraryContent" />
+        <activity android:name=".AskAPro"></activity>
+        <service android:name=".MesgRef">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCEIDService" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
