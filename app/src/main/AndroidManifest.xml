@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mothupii_.project77">
 
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,6 +19,12 @@
         <activity android:name=".OfflineLibrary" />
         <activity android:name=".Mentorship" />
         <activity android:name=".OfflineLibraryContent" />
+        <activity android:name=".AskAPro"></activity>
+        <service android:name=".MesgRef">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCEIDService" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
