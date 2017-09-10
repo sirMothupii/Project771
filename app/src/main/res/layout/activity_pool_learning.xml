@@ -6,28 +6,60 @@
     android:layout_height="match_parent"
     tools:context="com.example.mothupii_.project77.PoolLearning">
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="117dp"
-        android:layout_height="97dp"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="75dp" />
+    <ScrollView
+        android:layout_width="327dp"
+        android:layout_height="265dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp">
 
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="127dp"
-        android:layout_height="92dp"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_editor_absoluteY="75dp"
-        tools:layout_editor_absoluteX="219dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Subjects "
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="29dp" />
+            <TextView
+                android:id="@+id/subj1Txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subject 1" />
+
+            <ImageButton
+                android:id="@+id/subj1Btn"
+                android:layout_width="match_parent"
+                android:layout_height="157dp"
+                android:visibility="visible"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/Subj2Txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subject 2" />
+
+            <ImageButton
+                android:id="@+id/subj2Btn"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:visibility="visible"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subject 3" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+        </LinearLayout>
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>
