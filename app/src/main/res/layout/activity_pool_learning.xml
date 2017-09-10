@@ -27,39 +27,49 @@
                 android:id="@+id/subj1Txt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Subject 1" />
+                android:text="Subject 1"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <ImageButton
-                android:id="@+id/subj1Btn"
+                android:id="@+id/imageButton"
                 android:layout_width="match_parent"
-                android:layout_height="157dp"
-                android:visibility="visible"
-                app:srcCompat="@mipmap/ic_launcher" />
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_light"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/modules" />
 
             <TextView
                 android:id="@+id/Subj2Txt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Subject 2" />
+                android:text="Subject 2"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <ImageButton
-                android:id="@+id/subj2Btn"
+                android:id="@+id/imageButton4"
                 android:layout_width="match_parent"
-                android:layout_height="170dp"
-                android:visibility="visible"
-                app:srcCompat="@mipmap/ic_launcher" />
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_light"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/school" />
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Subject 3" />
+                android:text="Subject 3"
+                android:textSize="18sp" />
 
             <ImageButton
                 android:id="@+id/imageButton6"
                 android:layout_width="match_parent"
-                android:layout_height="125dp"
-                app:srcCompat="@mipmap/ic_launcher" />
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_light"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/study" />
+
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>

@@ -33,7 +33,6 @@
             </intent-filter>
         </service>
 
-        <activity android:name=".RandomExpect" />
         <activity android:name=".RandomExpert" />
         <activity android:name=".PoolLearning" />
         <activity android:name=".ActiveSessionPicker"></activity>

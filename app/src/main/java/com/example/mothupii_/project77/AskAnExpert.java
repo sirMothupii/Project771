@@ -8,6 +8,6 @@ public class AskAnExpert extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ask_an_expert);
+        setContentView(R.layout.activity_random_expert);
     }
 }
