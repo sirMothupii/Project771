@@ -18,7 +18,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".OfflineLibrary" />
-        <activity android:name=".Mentorship" />
         <activity android:name=".OfflineLibraryContent" />
         <activity android:name=".AskAPro" />
 

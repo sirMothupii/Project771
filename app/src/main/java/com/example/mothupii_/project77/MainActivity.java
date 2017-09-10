@@ -20,9 +20,4 @@ public class MainActivity extends AppCompatActivity
         startActivity(intent1);
     }
 
-    public void onClick5(View view)
-    {
-        Intent intent1 = new Intent(MainActivity.this, Mentorship.class);
-        startActivity(intent1);
-    }
 }
