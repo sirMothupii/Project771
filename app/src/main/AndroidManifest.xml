@@ -37,7 +37,8 @@
         <activity android:name=".ActiveSessionPicker" />
         <activity android:name=".StudyInspiration" />
         <activity android:name=".Chat" />
-        <activity android:name=".VideoPlayer"></activity>
+        <activity android:name=".VideoPlayer" />
+        <activity android:name=".QandA"></activity>
     </application>
 
 </manifest>

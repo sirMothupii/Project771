@@ -17,7 +17,13 @@ public class OfflineLibrary extends AppCompatActivity
 
     public void onClick(View view)
     {
-        Intent intent1 = new Intent(OfflineLibrary.this, OfflineLibraryContent.class);
+        Intent intent1 = new Intent(this, OfflineLibraryContent.class);
+        startActivity(intent1);
+    }
+
+    public void onClick01(View view)
+    {
+        Intent intent1 = new Intent(this, VideoPlayer.class);
         startActivity(intent1);
     }
 }

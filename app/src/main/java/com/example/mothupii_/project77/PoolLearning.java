@@ -1,13 +1,19 @@
 package com.example.mothupii_.project77;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
-public class PoolLearning extends AppCompatActivity {
+public class PoolLearning extends AppCompatActivity
+{
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pool_learning);
     }
+
+
 }

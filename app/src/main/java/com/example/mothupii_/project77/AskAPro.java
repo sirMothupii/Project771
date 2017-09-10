@@ -15,17 +15,22 @@ public class AskAPro extends AppCompatActivity
         setContentView(R.layout.activity_ask_apro);
     }
 
-    public void onClick8(View view)
-    {
-        Intent intent1 = new Intent(AskAPro.this, ResponseToQuestions.class);
-        startActivity(intent1);
-    }
-
     public void onClick7(View view)
     {
         Intent intent1 = new Intent(AskAPro.this, StudyInspiration.class);
         startActivity(intent1);
     }
 
+    public void onClick9(View view)
+    {
+        Intent intent1 = new Intent(this, PoolLearning.class);
+        startActivity(intent1);
+    }
 
+    public void onClickBtn(View view)
+    {
+
+        Intent intent1 = new Intent(this, QandA.class);
+        startActivity(intent1);
+    }
 }

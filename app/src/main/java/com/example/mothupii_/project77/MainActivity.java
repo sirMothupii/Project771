@@ -20,4 +20,10 @@ public class MainActivity extends AppCompatActivity
         startActivity(intent1);
     }
 
+    public void onClick02(View view)
+    {
+        Intent intent1 = new Intent(MainActivity.this, AskAPro.class);
+        startActivity(intent1);
+    }
+
 }
