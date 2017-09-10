@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity
 
     public void onClick5(View view)
     {
-        Intent intent1 = new Intent(MainActivity.this, Mentorship.class);
+        Intent intent1 = new Intent(MainActivity.this, AskAPro.class);
         startActivity(intent1);
     }
 }

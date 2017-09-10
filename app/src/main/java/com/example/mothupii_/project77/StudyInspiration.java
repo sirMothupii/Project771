@@ -5,19 +5,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class Mentorship extends AppCompatActivity
+public class StudyInspiration extends AppCompatActivity
 {
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mentorship);
+        setContentView(R.layout.activity_study_inspiration);
     }
 
-    public void onClick1(View view)
-    {
-        Intent intent1 = new Intent(this, ResponseToQuestions.class);
-        startActivity(intent1);
-    }
 }

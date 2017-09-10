@@ -40,6 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/background_light"
+                android:onClick="onClick8"
                 app:srcCompat="@drawable/one_on_one" />
 
             <TextView
@@ -57,6 +58,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@android:color/background_light"
+                android:onClick="onClick7"
                 app:srcCompat="@drawable/inspire"
                 tools:layout_editor_absoluteX="43dp"
                 tools:layout_editor_absoluteY="56dp" />

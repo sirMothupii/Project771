@@ -16,7 +16,8 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintHorizontal_bias="0.059"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.04" />
+        app:layout_constraintVertical_bias="0.04"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/txtName"
@@ -30,7 +31,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/txtQualification" />
+        app:layout_constraintBottom_toTopOf="@+id/txtQualification"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/txtQualification"
@@ -45,7 +47,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_bias="0.517"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="HardcodedText,MissingConstraints" />
 
     <TextView
         android:id="@+id/txtAvailability"
@@ -59,7 +61,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintVertical_bias="0.22" />
+        app:layout_constraintVertical_bias="0.22"
+        tools:ignore="HardcodedText" />
 
     <RatingBar
         android:id="@+id/ratingBar"
@@ -83,7 +86,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.427"
-        tools:ignore="LabelFor" />
+        tools:ignore="HardcodedText,LabelFor" />
 
     <TextView
         android:id="@+id/tstAsk"
@@ -108,7 +111,7 @@
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:ignore="MissingConstraints"
+        tools:ignore="HardcodedText,MissingConstraints"
         tools:layout_editor_absoluteY="297dp"
         app:layout_constraintHorizontal_bias="0.501" />
 
@@ -120,7 +123,7 @@
         android:text="Satisfied"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:ignore="MissingConstraints"
+        tools:ignore="HardcodedText,MissingConstraints"
         tools:layout_editor_absoluteY="395dp"
         app:layout_constraintHorizontal_bias="0.0" />
 
@@ -134,5 +137,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="HardcodedText,MissingConstraints" />
 </android.support.constraint.ConstraintLayout>

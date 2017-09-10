@@ -18,7 +18,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".OfflineLibrary" />
-        <activity android:name=".Mentorship" />
         <activity android:name=".OfflineLibraryContent" />
         <activity android:name=".AskAPro" />
 
@@ -35,7 +34,10 @@
 
         <activity android:name=".RandomExpert" />
         <activity android:name=".PoolLearning" />
-        <activity android:name=".ActiveSessionPicker"></activity>
+        <activity android:name=".ActiveSessionPicker" />
+        <activity android:name=".StudyInspiration" />
+        <activity android:name=".Chat" />
+        <activity android:name=".VideoPlayer"></activity>
     </application>
 
 </manifest>
