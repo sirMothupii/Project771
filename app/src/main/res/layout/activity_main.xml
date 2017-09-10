@@ -61,22 +61,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintHorizontal_bias="0.825"
-        app:layout_constraintTop_toBottomOf="@+id/imgBtnMentor" />
-
-    <ImageButton
-        android:id="@+id/imgBtnMentor"
-        android:layout_width="160dp"
-        android:layout_height="154dp"
-        android:background="@android:color/background_light"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:srcCompat="@drawable/social_entr"
-        tools:ignore="ContentDescription,RtlHardcoded"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.89"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.928" />
+        android:layout_marginBottom="13dp" />
 
     <TextView
         android:id="@+id/txtOfflineLibrary"
@@ -92,6 +77,21 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintHorizontal_bias="0.123"
         app:layout_constraintTop_toBottomOf="@+id/imgOfflineLibrary" />
+
+    <ImageButton
+        android:id="@+id/imgBtnMent"
+        android:layout_width="159dp"
+        android:layout_height="145dp"
+        android:background="@android:color/background_light"
+        android:onClick="onClick4"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/txtMentorship"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintLeft_toRightOf="@+id/imgOfflineLibrary"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHashTag"
+        app:layout_constraintVertical_bias="0.722"
+        app:srcCompat="@drawable/mentore" />
 
     <ImageButton
         android:id="@+id/imgOfflineLibrary"
