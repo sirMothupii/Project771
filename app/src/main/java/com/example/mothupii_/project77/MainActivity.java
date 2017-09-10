@@ -19,4 +19,10 @@ public class MainActivity extends AppCompatActivity
         Intent intent1 = new Intent(MainActivity.this, OfflineLibrary.class);
         startActivity(intent1);
     }
+
+    public void onClick4(View view)
+    {
+        Intent intent1 = new Intent(MainActivity.this, Mentorship.class);
+        startActivity(intent1);
+    }
 }
