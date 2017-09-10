@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        android:minSdkVersion="8"
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,12 +20,23 @@
         <activity android:name=".OfflineLibrary" />
         <activity android:name=".Mentorship" />
         <activity android:name=".OfflineLibraryContent" />
-        <activity android:name=".AskAPro"></activity>
+        <activity android:name=".AskAPro" />
+
         <service android:name=".MesgRef">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCEIDService" />
             </intent-filter>
         </service>
+        <service android:name=".MessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".RandomExpect" />
+        <activity android:name=".RandomExpert" />
+        <activity android:name=".PoolLearning" />
+        <activity android:name=".ActiveSessionPicker"></activity>
     </application>
 
 </manifest>
