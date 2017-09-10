@@ -46,9 +46,10 @@
         android:id="@+id/imageButton8"
         android:layout_width="91dp"
         android:layout_height="93dp"
-        app:srcCompat="@drawable/education1"
-        tools:layout_editor_absoluteY="312dp"
+        android:visibility="visible"
+        app:layout_constraintHorizontal_bias="0.83"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.739" />
+        app:srcCompat="@drawable/education1"
+        tools:layout_editor_absoluteY="328dp" />
 </android.support.constraint.ConstraintLayout>
